@@ -6,10 +6,13 @@
 	padding:20px;
 	justify-content: space-between;
 }
-#col1, #col2, #col3, #col4{
+.blog-column{
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 	align-items:center;
 	padding:20px;
+}
+li{
+	list-style: none;
 }
